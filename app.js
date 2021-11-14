@@ -5,9 +5,10 @@ const cookieParser = require("cookie-parser");
 const app = express();
 
 const PORT = process.env.PORT || 3000;
+//nodeapisoccer.herokuapp.com/
 
 //seteamos el motor de plantillas
-app.set("view engine", "ejs");
+https: app.set("view engine", "ejs");
 
 //seteamos la carpeta public para archivos estáticos
 app.use(express.static("public"));
